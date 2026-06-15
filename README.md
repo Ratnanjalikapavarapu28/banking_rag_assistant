@@ -29,18 +29,19 @@ The Banking RAG Assistant is designed to provide smart and context-aware banking
 
 ## 📁 Project Structure
 
+```bash
 banking_rag_assistant/
-│── auth/                 Authentication system (login/signup)  
-│── dashboard/           User dashboard UI  
-│── data/                Dataset files  
-│── database/            Database scripts and connections  
-│── history/             Chat history storage  
-│── rag/                 Core RAG pipeline (retrieval + generation logic)  
-│── voice/               Voice assistant module  
-│── app.py               Main application entry point  
-│── config.py            Configuration settings  
-│── requirements.txt     Python dependencies  
-│── Dockerfile           Container setup  
+│── auth/                 # Authentication system
+│── dashboard/            # User dashboard UI
+│── data/                 # Dataset files
+│── database/             # Database scripts
+│── history/              # Chat history storage
+│── rag/                  # Core RAG pipeline
+│── voice/                # Voice assistant module
+│── app.py                # Main application entry point
+│── config.py             # Configuration settings
+│── requirements.txt      # Dependencies
+│── Dockerfile            # Container setup  
 
 ## ⚙️ Installation
 
