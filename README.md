@@ -29,7 +29,7 @@ The Banking RAG Assistant is designed to provide smart and context-aware banking
 
 ## 📁 Project Structure
 
-```bash
+```
 banking_rag_assistant/
 │── auth/                 # Authentication system
 │── dashboard/            # User dashboard UI
@@ -41,26 +41,33 @@ banking_rag_assistant/
 │── app.py                # Main application entry point
 │── config.py             # Configuration settings
 │── requirements.txt      # Dependencies
-│── Dockerfile            # Container setup  
+│── Dockerfile            # Container setup
+```
+ ## ⚙️ Installation
 
-## ⚙️ Installation
-
-git clone https://github.com/your-username/banking_rag_assistant.git  
-cd banking_rag_assistant  
-pip install -r requirements.txt  
+```bash
+git clone https://github.com/your-username/banking_rag_assistant.git
+cd banking_rag_assistant
+pip install -r requirements.txt
+```
 
 ## ▶️ Run the Project
 
-streamlit run app.py  
+```bash
+streamlit run app.py
+```
 
-OR  
+OR
 
-python app.py  
-
+```bash
+python app.py
+```
 ## 🐳 Docker Deployment
 
-docker build -t banking-rag-assistant .  
-docker run -p 8501:8501 banking-rag-assistant  
+```bash
+docker build -t banking-rag-assistant .
+docker run -p 8501:8501 banking-rag-assistant
+```
 
 ## 📌 Future Improvements
 
